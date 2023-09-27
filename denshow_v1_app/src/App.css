@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar.search {
+  padding: auto;
+}
+
+.video-list-small {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.video-list-large {
+  background-color: #292f38;
+  height: 100vh;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  overflow-y: auto;
+}
